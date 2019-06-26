@@ -1,4 +1,4 @@
-## Materials for ATA Summer School, Day 9
+## Materials for ATA Summer School, Day 9 (July 23, 2019)
   
 Today's units:
 
