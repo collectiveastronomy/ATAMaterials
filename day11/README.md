@@ -2,5 +2,7 @@
 
 Today's Units:
 
-* Order of magnitude: binary-neutron star mergers and blast waves
+* Derive m-sigma, OoM
+* Introduction to Einstein toolkit
+* Introduction to multiwavelength SED fitting and ISIS tutorial
 
