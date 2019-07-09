@@ -6,6 +6,6 @@ Today's units:
 * Introduction to OoM
 * Inventory of Compact Objects
 * Conservation Laws using Stars
-* Introduction to Data Visualization
+* Introduction to Data Visualization (see [this readme](https://github.com/collectiveastronomy/ATAMaterials/blob/master/day01/DataVisualization.md) for more information
 * Networking, Upmentoring, Building Support systems
 
