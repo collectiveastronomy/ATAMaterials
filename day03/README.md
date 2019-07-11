@@ -5,5 +5,5 @@ Today's units:
 * How an accretion disk forms
 * OoM shocks and particle acceleration
 * Radiative Processes 2: Inverse Compton
-* Version Control with Git
+* [Version Control with Git](https://github.com/collectiveastronomy/ATAMaterials/blob/master/day03/VersionControl.md)
 
