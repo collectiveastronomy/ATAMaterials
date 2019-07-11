@@ -1,4 +1,4 @@
-# VersioN Control with Git
+# Version Control with Git
 
 For this lesson, we will be using parts of the materials of 
 the version control lesson taught as part of the 
