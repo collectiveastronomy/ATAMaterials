@@ -6,7 +6,7 @@ The repository is organized by days. You can find the schedule on the [ATA websi
 
 ## Computing
 
-The Setup instructions are in [this google doc](https://docs.google.com/document/d/108VybO9lh8e8jgvUDTvKLz8SxCv4Ci6ig152FYHIs8I/edit?usp=sharing).
+The Setup instructions are in [this google doc](https://docs.google.com/document/d/108VybO9lh8e8jgvUDTvKLz8SxCv4Ci6ig152FYHIs8I/edit?usp=sharing)
 
 The VM allocations are in [this google sheet](https://docs.google.com/spreadsheets/d/13wY5eYtZMwaXiulKvvCifHOyjx8kWgxNKjjBSfgNRWY/edit?usp=sharing)
 
