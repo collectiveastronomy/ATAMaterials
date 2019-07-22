@@ -1,0 +1,23 @@
+
+rm -f *.o *.mod
+
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o utils.o utils.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o utils1.o utils1.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o priors.o priors.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o kmeans_clstr.o kmeans_clstr.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o xmeans_clstr.o xmeans_clstr.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o posterior.o posterior.F90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o nested.o nested.F90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o params.o params.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o like.o like.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o nestwrap.o nestwrap.f90
+gfortran  -ffree-line-length-none -ffixed-line-length-none -fPIC -O -c -o main.o main.f90
+
+
+gfortran -o ../mhd.exe params.o like.o nestwrap.o main.o utils.o utils1.o \
+                       priors.o kmeans_clstr.o xmeans_clstr.o posterior.o nested.o \
+                      -ffree-line-length-none -ffixed-line-length-none -fPIC -O libmhd.a -llapack
+
+rm -f *.o *.mod
+
+
