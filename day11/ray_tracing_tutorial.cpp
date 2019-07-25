@@ -12,8 +12,8 @@ using std::ifstream;
 #define DISK (1)
 
 //edit 0: which type of problem?
-#define whichstop SHADOW
-//#define whichstop DISK
+//#define whichstop SHADOW
+#define whichstop DISK
 
 #define PI 3.14159265358979323846
 #define N 6
@@ -24,12 +24,12 @@ int M=m*m;
 #define t0 0
 #define r0 1000.0
 //edit 1: field of view
-//#define fov 0.05
-#define fov 0.025
+#define fov 0.05
+//#define fov 0.025
 //edit 2: inclination
-//double theta0=75.*PI/180.0;
+double theta0=75.*PI/180.0;
 //double theta0=60.*PI/180.0;
-double theta0=20.*PI/180.0;
+//double theta0=20.*PI/180.0;
 #define phi0 0
 //black hole spin
 #define a 0.9
