@@ -4,6 +4,13 @@ This repository contains the materials (lecture notes, slides, exercises, etc.) 
 
 The repository is organized by days. You can find the schedule on the [ATA website repository](https://github.com/collectiveastronomy/advancingtheoastro/blob/master/ATABlockSchedule.pdf) as well as short descriptions of each unit [in the longer schedule](https://github.com/collectiveastronomy/advancingtheoastro/blob/master/ata_curriculum.pdf).
 
+## Feedback Survey
+
+Please fill out our [feedback survey](http://washington.co1.qualtrics.com/jfe/form/SV_7ORbsww17GKHUPj)!
+
+The password will be written on the board during the Friday wrap-up session.
+
+
 ## Computing
 
 The Setup instructions are in [this google doc](https://docs.google.com/document/d/108VybO9lh8e8jgvUDTvKLz8SxCv4Ci6ig152FYHIs8I/edit?usp=sharing)
