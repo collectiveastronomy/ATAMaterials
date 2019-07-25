@@ -12,8 +12,8 @@ using std::ifstream;
 #define DISK (1)
 
 //edit 0: which type of problem?
-//#define whichstop SHADOW
-#define whichstop DISK
+#define whichstop SHADOW
+//#define whichstop DISK
 
 #define PI 3.14159265358979323846
 #define N 6
@@ -24,12 +24,12 @@ int M=m*m;
 #define t0 0
 #define r0 1000.0
 //edit 1: field of view
-#define fov 0.05
-//#define fov 0.025
+//#define fov 0.05
+#define fov 0.025
 //edit 2: inclination
 //double theta0=75.*PI/180.0;
-double theta0=60.*PI/180.0;
-//double theta0=20.*PI/180.0;
+//double theta0=60.*PI/180.0;
+double theta0=20.*PI/180.0;
 #define phi0 0
 //black hole spin
 #define a 0.9
@@ -401,7 +401,8 @@ int main()
 	  else if (whichstop==SHADOW)
 	    {
 	      double stheta0=sin(theta0);
-	      double VPL=0.2;
+	      double VPL=0.0;
+	      if (fabs(cos(y[1])) < 0.98) VPL=0.2;
 	      double D=(y[0]*y[0]-2.*y[0]+a*a);
 	      double AR=(y[0]*y[0]+a*a)*(y[0]*y[0]+a*a)-a*a*D*stheta0*stheta0;
 	      double RHO=y[0]*y[0]+a*a*cos(theta0);
@@ -411,7 +412,7 @@ int main()
 	      double Omega=ENU/EPSI*VPL+OM;
 	      double GAM=1./sqrt(1.-VPL*VPL);
 	      double G=ENU/GAM/(1.-L*Omega);
-	      double j=1./y[0]/y[0]*exp(-sin(y[1])*sin(y[1]));
+	      double j=1./y[0]/y[0]*exp(-cos(y[1])*cos(y[1]));
 	      intensity3+=(y[3]-t_prev)*j*G*G;
 	      //	      cout << "intensity3: " << intensity3 << " " << y[3] << " " << t_prev << " " << j << " " << G << endl;
 	      if (y[0] < RHor)
