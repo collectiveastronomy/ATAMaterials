@@ -1,0 +1,32 @@
+constant(Isis_Active_Dataset)*phabs(1)*reflect(1,(simplejet_cache(1)+gaussian(1)+diskbb(1)))
+ idx  param                  tie-to  freeze         value         min         max
+  1  constant(1).factor          0     1                1           0       1e+10  
+  2  phabs(1).nH                 0     1              0.6           0      100000  10^22
+  3  simplejet_cache(1).norm     0     1                1           0     1000000  
+  4  simplejet_cache(1).mbh      0     1               10           1       1e+09  msun
+  5  simplejet_cache(1).jetrat   0     0            0.008       1e-07           1  L_edd
+  6  simplejet_cache(1).pspec    0     0                2         1.7           4  
+  7  simplejet_cache(1).zsh      0     0              300           5       10000  r_g
+  8  simplejet_cache(1).r0       0     0                3           2         100  r_g
+  9  simplejet_cache(1).hratio   0     1              1.5         0.1         100  
+ 10  simplejet_cache(1).incl     0     1               40           0          90  deg
+ 11  simplejet_cache(1).eltemp   0     0            2e+10       2e+09       5e+11  K
+ 12  simplejet_cache(1).plfrac   0     0             0.75      0.0001           1  
+ 13  simplejet_cache(1).dkpc     0     1                1         0.1       10000  kpc
+ 14  simplejet_cache(1).comsw    0     1                0           0           1  
+ 15  simplejet_cache(1).plotsw   0     1                1           0           1  
+ 16  simplejet_cache(1).fsc      0     0           0.0036       1e-07       0.036  
+ 17  simplejet_cache(1).zmax     0     1             13.5          13          16  lg cm
+ 18  simplejet_cache(1).equip    0     0                2         0.1         100  
+ 19  gaussian(1).norm            0     0      0.001864883           0       1e+10  
+ 20  gaussian(1).LineE           0     1         6.259529           0     1000000  keV
+ 21  gaussian(1).Sigma           0     0        0.6003765           0          10  keV
+ 22  diskbb(1).norm              0     0            1e+08           0       1e+10  
+ 23  diskbb(1).Tin               0     1            0.001      0.0001        1000  keV
+ 24  reflect(1).rel_refl         0     0        0.3888464          -1     1000000  
+ 25  reflect(1).Redshift         0     1                0      -0.999          10  
+ 26  reflect(1).abund            0     1                1           0     1000000  
+ 27  reflect(1).Fe_abund         0     1                1           0     1000000  
+ 28  reflect(1).cosIncl          0     1             0.45        0.05        0.95  
+ 29  constant(2).factor          0     0        0.9229684         0.9         1.1  
+ 30  constant(3).factor          0     0                1           0       1e+10  
